@@ -1,4 +1,7 @@
-   /* ── CSS Variables ── */
+
+
+
+/* ROOT -> variables de carpeta normalize.css  */
     :root {
       --clr-bg-top:    #001a0f;
       --clr-bg-mid:    #002d18;
@@ -15,7 +18,9 @@
       --nav-h:         64px;
     }
 
-    /* ── Reset & Base ── */
+
+
+    /* Reset y Base */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
 
@@ -31,7 +36,7 @@
       overflow-x: hidden;
     }
 
-    /* Noise grain overlay */
+    /* */
     body::before {
       content: '';
       position: fixed;
@@ -54,6 +59,8 @@
       pointer-events: none;
       z-index: 0;
     }
+
+
 
     /* ── Nav ── */
     nav {
@@ -590,4 +597,3 @@
       .contact-layout { grid-template-columns: 1fr; }
       .nav-links { display: none; }
     }
-  </style>
